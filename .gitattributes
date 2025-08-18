@@ -1,0 +1,36 @@
+# Default: Use LF for all text files
+* text=auto eol=lf
+
+# JavaScript, TypeScript, React
+*.js  text eol=lf
+*.jsx text eol=lf
+*.ts  text eol=lf
+*.tsx text eol=lf
+
+# Styles & Markup
+*.css  text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.md   text eol=lf
+
+# Backend (Node.js)
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.env  text eol=lf
+
+# Shell scripts (Linux/Mac)
+*.sh text eol=lf
+
+# Windows scripts
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+*.{ps1,[pP][sS]1}   text eol=crlf
+
+# Database files
+*.sql text eol=lf
+
+# Git & CI/CD configs
+*.gitattributes text eol=lf
+*.gitignore     text eol=lf
+*.editorconfig  text eol=lf
